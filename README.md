@@ -1,10 +1,10 @@
 ## Sistem Informasi Jelajah Blitar
 
-<p align="center"><a href="#" target="_blank"><img src="public/images/iniblitar.jpeg" width="400"></a></p>
+<p align="center"><a href="#" target="_blank"><img src="public/images/iniblitar.jpeg" width="400" style="text-center"></a></p>
 
 ## Admin Dashboard
 
-<img src="public/images/admin.jpeg" width="400">
+<p align="center"><a href="#" target="_blank"><img src="public/images/admin.jpeg" width="500" style="text-center"></a></p>
 
 ##
 
