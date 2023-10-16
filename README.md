@@ -17,3 +17,55 @@ Sistem Informasi Jelajah Blitar adalah sebuah platform atau sistem informasi yan
 <b>Fitur Pencarian:</b> Terdapat fitur pencarian yang memungkinkan pengguna untuk mencari nama atau informasi tertentu dengan cepat. Misalnya, pengguna dapat mencari restoran tertentu atau nama wisata berdasarkan kriteria tertentu.
 
 Sistem Informasi Jelajah Blitar memiliki tujuan untuk memberikan pengalaman yang lebih baik bagi wisatawan dan penduduk setempat, dengan memberikan akses mudah ke informasi yang relevan dan terbaru tentang Blitar. Dengan demikian, pengguna dapat merencanakan perjalanan mereka dengan lebih efisien dan menikmati semua yang Blitar tawarkan.
+
+## SISTEM INI OPEN SOURCE
+
+anda bisa menggunakan atau mendownload sistem ini untuk dikembangkan menjadi yang lebih baik lagi.
+
+Sistem ini dibangun menggunakan Framework Laravel.
+
+Adapun library/plugin/theme yang digunakan:
+
+<ol>
+<li> Bootstrap 5</li>
+<li> Admin lte 3</li>
+<li> SweetAlert 2</li>
+</ol>
+
+## Cara Menggunakan
+
+<ol>
+<li> Download terlebih dahulu</li>
+<li> Buat database dengan nama sesuai keinginan kalian. <br>contoh : iniblitar</li>
+<li>Copy .env.example lalu ubah dengan nama .env</li>
+<li>Ubah isi didalam .env :<br>
+DB_DATABASE=iniblitar (sesuai nama database)<br>
+DB_USERNAME=root (username)<br>
+DB_PASSWORD= ***** (password)<br>
+</li>
+<li> Buka terminal lalu ketik </li>
+
+```bash
+$ composer update
+```
+
+```bash
+$ php artisan key:generate
+```
+
+```bash
+$ php artisan migrate
+```
+
+```bash
+$ php artisan db:seed
+```
+
+<li>Selamat, Sistem sudah bisa digunakan</li>
+</ol>
+
+## Akses
+
+Login Admin <br>
+email : admin@gmail.com <br>
+password : admin123
